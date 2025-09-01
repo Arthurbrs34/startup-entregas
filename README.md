@@ -103,7 +103,7 @@ Se aparecer a tela padrão do Django, o servidor está funcionando ✅
 
 ---
 
-### Banco de Dados
+### Banco de Dados (ainda não temos banco de dados, ignorem por enquanto)
 
 O projeto utiliza **SQLite** por padrão, configurado no arquivo `settings.py`:
 
