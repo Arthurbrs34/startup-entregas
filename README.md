@@ -1,7 +1,7 @@
 # startup-entregas
 Ferramenta de entregas desenvolvida para a disciplina de Análise e Projeto de Software
 
-# 📖 Documentação do Projeto Django
+# 📖 Documentação do Projeto
 
 Este é um guia de configuração e desenvolvimento para o projeto Django. Siga os passos abaixo para começar.
 
