@@ -12,8 +12,7 @@ Este é um guia de configuração e desenvolvimento para o projeto Django. Siga 
 * [Guia de Instalação](#guia-de-instalação)
   * [Passo 1: Criar Ambiente Virtual](#passo-1-criar-ambiente-virtual)
   * [Passo 2: Instalar Dependências](#passo-2-instalar-dependências)
-  * [Passo 3: Aplicar Migrações](#passo-3-aplicar-migrações)
-  * [Passo 4: Rodar o Servidor](#passo-4-rodar-o-servidor)
+  * [Passo 3: Rodar o Servidor](#passo-4-rodar-o-servidor)
 * [Próximos Passos](#próximos-passos)
 * [Banco de Dados](#banco-de-dados)
 
