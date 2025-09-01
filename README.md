@@ -153,8 +153,3 @@ python manage.py startapp nome_do_app
 * Sempre mantenha o ambiente virtual ativado antes de rodar comandos do Django.
 * Use o `requirements.txt` para instalar dependências rapidamente em outras máquinas.
 * O projeto está preparado para desenvolvimento local; para produção, recomenda-se configurar outro banco e servidor web.
-
-```
-
-
-```
