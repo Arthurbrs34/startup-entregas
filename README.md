@@ -69,7 +69,7 @@ pip freeze > requirements.txt
 
 ---
 
-#### Passo 3: Aplicar Migrações
+#### Passo 3: Aplicar Migrações (no momento o projeto esta sem banco de dados, ignorem por enquanto esse passo)
 
 Configure o banco de dados e aplique as migrações iniciais:
 
