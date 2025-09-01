@@ -101,36 +101,12 @@ Abra o navegador e acesse:
 
 Se aparecer a tela padrão do Django, o servidor está funcionando ✅
 
----
 
-### Banco de Dados (ainda não temos banco de dados, ignorem por enquanto)
 
-O projeto utiliza **SQLite** por padrão, configurado no arquivo `settings.py`:
-
-```python
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / "db.sqlite3",
-    }
-}
-```
-
-Para criar tabelas no banco, defina seus **models** nos apps e execute:
-
-```bash
-python manage.py makemigrations
-python manage.py migrate
-```
-
-Para visualizar e gerenciar dados, registre os models no admin (`admin.py`) e crie um superusuário:
 
 ```bash
 python manage.py createsuperuser
 ```
-
-Acesse o painel admin em [http://127.0.0.1:8000/admin](http://127.0.0.1:8000/admin).
-
 ---
 
 ### Próximos Passos
