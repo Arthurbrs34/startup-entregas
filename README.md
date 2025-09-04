@@ -1,130 +1,111 @@
-# startup-entregas
-Ferramenta de entregas desenvolvida para a disciplina de Análise e Projeto de Software
-
-# 📖 Documentação do Projeto
-
-Este é um guia de configuração e desenvolvimento para o projeto Django. Siga os passos abaixo para começar.
+# 🚀 Startup Entregas  
+📦 Ferramenta de entregas desenvolvida para a disciplina de **Análise e Projeto de Software**  
 
 ---
 
-### 📋 Sumário
-* [Pré-requisitos](#pré-requisitos)
-* [Guia de Instalação](#guia-de-instalação)
-  * [Passo 1: Criar Ambiente Virtual](#passo-1-criar-ambiente-virtual)
-  * [Passo 2: Instalar Dependências](#passo-2-instalar-dependências)
-  * [Passo 3: Rodar o Servidor](#passo-4-rodar-o-servidor)
-* [Próximos Passos](#próximos-passos)
-* [Banco de Dados](#banco-de-dados)
+## 🔧 Pré-requisitos  
+Antes de começar, certifique-se de ter instalado:  
+- 🐍 **Python 3.10+**  
+- 📦 **pip** (gerenciador de pacotes)  
+- 🛠️ **venv** (ambiente virtual recomendado)  
 
 ---
 
-### Pré-requisitos
-Certifique-se de que você tem o seguinte instalado na sua máquina:
-* **Python:** Versão 3.10 ou superior.
-* **pip:** O gerenciador de pacotes do Python.
-* **Ambiente Virtual (venv):** Recomendado para isolar as dependências do projeto.
+## ⚙️ Guia de Instalação  
 
----
+### 1️⃣ Criar ambiente virtual  
 
-### Guia de Instalação
-
-#### Passo 1: Criar Ambiente Virtual
-Abra o terminal na pasta do projeto e execute os comandos de acordo com seu sistema operacional.
-
-**Windows (PowerShell ou CMD)**
+**Windows**  
 ```bash
 python -m venv venv
 venv\Scripts\activate
-````
+Linux / MacOS
 
-**Linux / MacOS (Bash ou Zsh)**
-
-```bash
+bash
+Copiar código
 python3 -m venv venv
 source venv/bin/activate
-```
-
----
-
-#### Passo 2: Instalar Dependências
-
-Com o ambiente virtual ativado, instale o Django:
-
-```bash
-pip install django
-```
-
-Se houver um arquivo `requirements.txt`, você pode instalar todas as dependências com:
-
-```bash
+2️⃣ Instalar dependências
+bash
+Copiar código
 pip install -r requirements.txt
-```
+3️⃣ Rodar o servidor
+Windows
 
-Para gerar o `requirements.txt` (caso queira compartilhar o projeto):
-
-```bash
-pip freeze > requirements.txt
-```
-
----
-
-#### Passo 3: Aplicar Migrações (no momento o projeto esta sem banco de dados, ignorem por enquanto esse passo)
-
-Configure o banco de dados e aplique as migrações iniciais:
-
-```bash
-python manage.py migrate
-```
-
----
-
-#### Passo 4: Rodar o Servidor
-
-Execute o servidor de desenvolvimento:
-
-**Windows**
-
-```bash
+bash
+Copiar código
 python manage.py runserver
-```
+Linux / MacOS
 
-**Linux / MacOS**
-
-```bash
+bash
+Copiar código
 python3 manage.py runserver
-```
+📍 Acesse no navegador: http://127.0.0.1:8000/ ✅
 
-Abra o navegador e acesse:
+📌 Entrega 01 (02/09)
+✅ Histórias de Usuário
+US01 – Cadastro de usuário
+Como um usuário, eu quero me cadastrar informando meu usuário ou e-mail e a senha para ter acesso ao sistema e usar os recursos.
+🔥 Prioridade: ALTA
 
-[http://127.0.0.1:8000/](http://127.0.0.1:8000/)
+US02 – Login no sistema
+Como usuário e tendo cadastro, quero fazer login com usuário ou e-mail e senha para acessar as funcionalidades.
+🔥 Prioridade: ALTA
 
-Se aparecer a tela padrão do Django, o servidor está funcionando ✅
+US03 – Criar pedido de entrega
+Como cliente e usuário, quero criar um pedido informando item e endereço para ter uma entrega rápida.
+🔥 Prioridade: ALTA
 
+US04 – Listar os meus pedidos
+Como cliente e usuário, quero visualizar todos os meus pedidos de entrega e acompanhar eles.
+⚡ Prioridade: MÉDIA
 
+US05 – Ver os pedidos disponíveis
+Como entregador, quero visualizar os pedidos que ainda estão pendentes para escolher qual eu quero entregar.
+⚡ Prioridade: MÉDIA
 
+US06 – Aceitar o pedido
+Como entregador, eu quero aceitar um pedido para fazer a entrega.
+⚡ Prioridade: MÉDIA
 
-```bash
-python manage.py createsuperuser
-```
----
+US07 – Marcar o pedido como entregue
+Como entregador, eu quero finalizar uma entrega para encerrar a minha tarefa.
+⚡ Prioridade: MÉDIA
 
-### Próximos Passos
+US08 – Gerenciar os usuários
+Como gerente, quero ver todos os usuários para acompanhar quem está usando o sistema no momento.
+🟢 Prioridade: BAIXA
 
-* Criar apps no projeto:
+US09 – Excluir pedido (Gerente)
+Como gerente, quero excluir pedidos incorretos, inválidos etc., mantendo o sistema em ordem.
+🟢 Prioridade: BAIXA
 
-```bash
-python manage.py startapp nome_do_app
-```
+US10 – Logs de alteração
+Como gerente, quero ver os históricos de alterações para acompanhar as ações realizadas.
+🟢 Prioridade: BAIXA
 
-* Configurar rotas no `urls.py` de cada app.
-* Criar models, aplicar migrações e registrar no admin.
-* Desenvolver views, templates e interações com o banco.
-* Testar funcionalidades no servidor local.
+📊 Priorização das Entregas
+Alta: US01, US02, US03
 
----
+Média: US04, US05, US06, US07
 
-### Observações
+Baixa: US08, US09, US10
 
-* Sempre mantenha o ambiente virtual ativado antes de rodar comandos do Django.
-* Use o `requirements.txt` para instalar dependências rapidamente em outras máquinas.
-* O projeto está preparado para desenvolvimento local; para produção, recomenda-se configurar outro banco e servidor web.
+👥 Papéis de Cada Integrante
+🖥️ Back-end: Arthur Angelo, Maria Clara, Arthur Holanda
+
+🎨 Front-end: João Lucas, Gabriella Theóphilo, Caio Vinicius
+
+📌 P.O / Scrum Master: Davi
+
+🧪 Tester: Leonardo
+
+📝 Backlog e Quadro (Trello)
+📌 Print do quadro do Trello aqui:
+
+✨ Observações
+Ative sempre o ambiente virtual antes de rodar comandos.
+
+Use o requirements.txt para instalar dependências em outras máquinas.
+
+O projeto está configurado para desenvolvimento local; para produção, recomenda-se banco e servidor adequados.
