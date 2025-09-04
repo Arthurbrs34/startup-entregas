@@ -21,68 +21,71 @@ python -m venv venv
 venv\Scripts\activate
 Linux / MacOS
 
-bash
-Copiar código
 python3 -m venv venv
 source venv/bin/activate
 2️⃣ Instalar dependências
-bash
-Copiar código
+
 pip install -r requirements.txt
 3️⃣ Rodar o servidor
 Windows
 
-bash
-Copiar código
 python manage.py runserver
 Linux / MacOS
 
-bash
-Copiar código
 python3 manage.py runserver
 📍 Acesse no navegador: http://127.0.0.1:8000/ ✅
 
 📌 Entrega 01 (02/09)
-✅ Histórias de Usuário
-US01 – Cadastro de usuário
-Como um usuário, eu quero me cadastrar informando meu usuário ou e-mail e a senha para ter acesso ao sistema e usar os recursos.
-🔥 Prioridade: ALTA
+### ✅ Histórias de Usuário  
 
-US02 – Login no sistema
-Como usuário e tendo cadastro, quero fazer login com usuário ou e-mail e senha para acessar as funcionalidades.
-🔥 Prioridade: ALTA
+- **US01 – Cadastro de usuário**  
+  Como um usuário, eu quero me cadastrar informando meu usuário ou e-mail e a senha para ter acesso ao sistema e usar os recursos.  
+  🔥 Prioridade: **ALTA**  
 
-US03 – Criar pedido de entrega
-Como cliente e usuário, quero criar um pedido informando item e endereço para ter uma entrega rápida.
-🔥 Prioridade: ALTA
+- **US02 – Login no sistema**  
+  Como usuário e tendo cadastro, quero fazer login com usuário ou e-mail e senha para acessar as funcionalidades.  
+  🔥 Prioridade: **ALTA**  
 
-US04 – Listar os meus pedidos
-Como cliente e usuário, quero visualizar todos os meus pedidos de entrega e acompanhar eles.
-⚡ Prioridade: MÉDIA
+- **US03 – Criar pedido de entrega**  
+  Como cliente e usuário, quero criar um pedido informando item e endereço para ter uma entrega rápida.  
+  🔥 Prioridade: **ALTA**  
 
-US05 – Ver os pedidos disponíveis
-Como entregador, quero visualizar os pedidos que ainda estão pendentes para escolher qual eu quero entregar.
-⚡ Prioridade: MÉDIA
+- **US04 – Listar os meus pedidos**  
+  Como cliente e usuário, quero visualizar todos os meus pedidos de entrega e acompanhar eles.  
+  ⚡ Prioridade: **MÉDIA**  
 
-US06 – Aceitar o pedido
-Como entregador, eu quero aceitar um pedido para fazer a entrega.
-⚡ Prioridade: MÉDIA
+- **US05 – Ver os pedidos disponíveis**  
+  Como entregador, quero visualizar os pedidos que ainda estão pendentes para escolher qual eu quero entregar.  
+  ⚡ Prioridade: **MÉDIA**  
 
-US07 – Marcar o pedido como entregue
-Como entregador, eu quero finalizar uma entrega para encerrar a minha tarefa.
-⚡ Prioridade: MÉDIA
+- **US06 – Aceitar o pedido**  
+  Como entregador, eu quero aceitar um pedido para fazer a entrega.  
+  ⚡ Prioridade: **MÉDIA**  
 
-US08 – Gerenciar os usuários
-Como gerente, quero ver todos os usuários para acompanhar quem está usando o sistema no momento.
-🟢 Prioridade: BAIXA
+- **US07 – Marcar o pedido como entregue**  
+  Como entregador, eu quero finalizar uma entrega para encerrar a minha tarefa.  
+  ⚡ Prioridade: **MÉDIA**  
 
-US09 – Excluir pedido (Gerente)
-Como gerente, quero excluir pedidos incorretos, inválidos etc., mantendo o sistema em ordem.
-🟢 Prioridade: BAIXA
+- **US08 – Gerenciar os usuários**  
+  Como gerente, quero ver todos os usuários para acompanhar quem está usando o sistema no momento.  
+  🟢 Prioridade: **BAIXA**  
 
-US10 – Logs de alteração
-Como gerente, quero ver os históricos de alterações para acompanhar as ações realizadas.
-🟢 Prioridade: BAIXA
+- **US09 – Excluir pedido (Gerente)**  
+  Como gerente, quero excluir pedidos incorretos, inválidos etc., mantendo o sistema em ordem.  
+  🟢 Prioridade: **BAIXA**  
+
+- **US10 – Logs de alteração**  
+  Como gerente, quero ver os históricos de alterações para acompanhar as ações realizadas.  
+  🟢 Prioridade: **BAIXA**  
+
+---
+
+### 📊 Priorização das Entregas  
+- **Alta**: US01, US02, US03  
+- **Média**: US04, US05, US06, US07  
+- **Baixa**: US08, US09, US10  
+
+
 
 📊 Priorização das Entregas
 Alta: US01, US02, US03
@@ -99,9 +102,6 @@ Baixa: US08, US09, US10
 📌 P.O / Scrum Master: Davi
 
 🧪 Tester: Leonardo
-
-📝 Backlog e Quadro (Trello)
-📌 Print do quadro do Trello aqui:
 
 ✨ Observações
 Ative sempre o ambiente virtual antes de rodar comandos.
