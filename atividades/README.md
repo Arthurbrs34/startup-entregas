@@ -13,7 +13,7 @@ Os diagramas representam o **fluxo passo a passo das ações do usuário**, incl
 ## Diagramas por User Story
 
 ### US01 – Cadastro de usuário
-Usuário cadastra-se informando nome, email e senha. Validações de dados e email existente incluídas.  
+Usuário cadastra informando nome, email e senha. Validações de dados e email existente incluídas.  
 ![US01](US01(CADASTRO).png)
 
 ### US02 – Login no sistema
@@ -21,7 +21,7 @@ Usuário realiza login com usuário/email e senha. Validações das credenciais 
 ![US02](US02(LOGIN).png)
 
 ### US03 – Criar pedido de entrega
-Cliente cria pedido informando item e endereço, com validação de dados.  
+Cliente cria pedido informando item e endereço com validação de dados.  
 ![US03](US03(CRIARPEDIDO).png)
 
 ### US04 – Listar meus pedidos
@@ -29,7 +29,7 @@ Cliente visualiza todos os pedidos realizados e acompanha os status.
 ![US04](US04(LISTARPEDIDOS).png)
 
 ### US05 – Ver pedidos disponíveis
-Entregador visualiza pedidos pendentes para escolher qual aceitar.  
+Entregador visualiza os pedidos pendentes para escolher qual pretende aceitar.  
 ![US05](US05(VERPEDIDOS).png)
 
 ### US06 – Aceitar pedido
@@ -45,9 +45,9 @@ Gerente visualiza lista de usuários e detalhes.
 ![US08](US08(GERENCIARUSUARIOS).png)
 
 ### US09 – Excluir pedido
-Gerente exclui pedidos incorretos ou inválidos, verificando de erros.  
+Gerente exclui pedidos incorretos ou inválidos verificando se tem erros.  
 ![US09](US09(EXLUIRPEDIDO).png)
 
 ### US10 – Logs de alteração
-Gerente visualiza histórico de alterações e pode filtrar as informações.  
+Gerente visualiza histórico de alterações e pode filtrar as informações presentes.  
 ![US10](US10(LOGS).png)
