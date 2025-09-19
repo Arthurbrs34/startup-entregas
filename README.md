@@ -1,4 +1,4 @@
-# 🚀 Startup Entregas  
+# 🚀 Sweetly 
 📦 Ferramenta de entregas desenvolvida para a disciplina de **Análise e Projeto de Software**  
 
 ---
