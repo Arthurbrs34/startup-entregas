@@ -46,7 +46,7 @@ Gerente visualiza lista de usuários e detalhes.
 
 ### US09 – Excluir pedido
 Gerente exclui pedidos incorretos ou inválidos verificando se tem erros.  
-![US09](US09(EXLUIRPEDIDO).png)
+![US09](US09(EXCLUIRPEDIDO).png)
 
 ### US10 – Logs de alteração
 Gerente visualiza histórico de alterações e pode filtrar as informações presentes.  
