@@ -5,35 +5,19 @@
 
 ## 🔧 Pré-requisitos  
 Antes de começar, certifique-se de ter instalado:  
-- 🐍 **Python 3.10+**  
-- 📦 **pip** (gerenciador de pacotes)  
-- 🛠️ **venv** (ambiente virtual recomendado)  
+- ⚙️ **Node.js 18+** (inclui o **npm**)  
+- 📦 **npm** (já vem junto com o Node.js) ou, se preferir, **Yarn** como gerenciador de pacotes  
+- 🖥️ **Git** (para clonar e versionar o projeto)  
 
 ---
 
 ## ⚙️ Guia de Instalação  
 
-### 1️⃣ Criar ambiente virtual  
+### 1️⃣ ...
 
 **Windows**  
 ```bash
-python -m venv venv
-venv\Scripts\activate
-Linux / MacOS
-
-python3 -m venv venv
-source venv/bin/activate
-2️⃣ Instalar dependências
-
-pip install -r requirements.txt
-3️⃣ Rodar o servidor
-Windows
-
-python manage.py runserver
-Linux / MacOS
-
-python3 manage.py runserver
-📍 Acesse no navegador: http://127.0.0.1:8000/ ✅
+...
 
 📌 Entrega 01 (02/09)
 ### ✅ Histórias de Usuário  
@@ -104,9 +88,8 @@ Baixa: US08, US09, US10
 🧪 Tester: Aluisio
 
 ✨ Observações
-Ative sempre o ambiente virtual antes de rodar comandos.
-
-Use o requirements.txt para instalar dependências em outras máquinas.
+- Instale as dependências sempre com `npm install` ou `yarn install` antes de rodar o projeto.  
+- O projeto está configurado para desenvolvimento local; para produção, recomenda-se configurar variáveis de ambiente, banco de dados e servidor adequados.  
 
 O projeto está configurado para desenvolvimento local; para produção, recomenda-se banco e servidor adequados.
 
