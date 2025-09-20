@@ -17,6 +17,7 @@ Antes de começar, certifique-se de ter instalado:
 
 **Windows**  
 ```bash
+🚧 Em construção: a guia completa de instalação será disponibilizada em breve.  
 ...
 
 📌 Entrega 01 (02/09)
@@ -24,7 +25,9 @@ Antes de começar, certifique-se de ter instalado:
 
 - **US01 – Cadastro de usuário**  
   Como um usuário, eu quero me cadastrar informando meu usuário ou e-mail e a senha para ter acesso ao sistema e usar os recursos.  
-  🔥 Prioridade: **ALTA**  
+  🔥 Prioridade: **ALTA**
+
+  ![Diagrama de Cadastro](atividades/US01\(CADASTRO\).png)
 
 - **US02 – Login no sistema**  
   Como usuário e tendo cadastro, quero fazer login com usuário ou e-mail e senha para acessar as funcionalidades.  
