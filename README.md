@@ -27,8 +27,6 @@ Antes de começar, certifique-se de ter instalado:
   Como um usuário, eu quero me cadastrar informando meu usuário ou e-mail e a senha para ter acesso ao sistema e usar os recursos.  
   🔥 Prioridade: **ALTA**
 
-  ![Diagrama de Cadastro](https://github.com/Arthurbrs34/startup-entregas/blob/main/atividades/US01-CADASTRO.png)
-
 - **US02 – Login no sistema**  
   Como usuário e tendo cadastro, quero fazer login com usuário ou e-mail e senha para acessar as funcionalidades.  
   🔥 Prioridade: **ALTA**  
