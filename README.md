@@ -3,7 +3,7 @@
 
 Já pensou em um serviço _Delivery_ que entrega doces? Se sim, nós temos a solução perfeita!
 
-O Sweetly é uma aplicação desenvolvida para os amantes de doces com as melhores sobremesas. Seja um Cookie, brigadeiro, açai, bolos, Sorvetes. O melhor de tudo somos focados em DOCES!
+O Sweetly é uma aplicação desenvolvida para os amantes de doces com as melhores sobremesas. Seja um Cookie, brigadeiro, açai, bolos, Sorvetes. Tudo focado em DOCES!
 
 ---
 
