@@ -19,6 +19,8 @@ Antes de começar, certifique-se de ter instalado:
 
 ### 1️⃣ ...
 
+### 🔁 Diagrama de atividades
+
 **Windows**  
 ```bash
 🚧 Em construção: a guia completa de instalação será disponibilizada em breve.  
@@ -84,7 +86,7 @@ Média: US04, US05, US06, US07
 Baixa: US08, US09, US10
 
 👥 Papéis de Cada Integrante
-🖥️ Back-end: Arthur Angelo, Maria Clara, Arthur Holanda e Leonardo Harlam
+🖥️ Back-end: Arthur Angelo, Maria Clara, Davi, Arthur Holanda e Leonardo Harlam
 
 🎨 Front-end: João Lucas, Gabriella Theóphilo, Caio Vinicius
 
