@@ -21,6 +21,47 @@ Antes de começar, certifique-se de ter instalado:
 
 ### 🔁 Diagrama de atividades
 
+### US01 – Cadastro de usuário
+Usuário cadastra informando nome, email e senha. Validações de dados e email existente incluídas.  
+![US01](US01(CADASTRO).png)
+
+### US02 – Login no sistema
+Usuário realiza login com usuário/email e senha. Validações das credenciais incorretas incluídas.  
+![US02](US02(LOGIN).png)
+
+### US03 – Criar pedido de entrega
+Cliente cria pedido informando item e endereço com validação de dados.  
+![US03](US03(CRIARPEDIDO).png)
+
+### US04 – Listar meus pedidos
+Cliente visualiza todos os pedidos realizados e acompanha os status.  
+![US04](US04(LISTARPEDIDOS).png)
+
+### US05 – Ver pedidos disponíveis
+Entregador visualiza os pedidos pendentes para escolher qual pretende aceitar.  
+![US05](US05(VERPEDIDOS).png)
+
+### US06 – Aceitar pedido
+Entregador aceita o pedido para realizar entrega.  
+![US06](US06(ACEITARPEDIDO).png)
+
+### US07 – Marcar pedido como entregue
+Entregador finaliza entrega e atualiza status do pedido.  
+![US07](US07(ENTREGUE).png)
+
+### US08 – Gerenciar usuários
+Gerente visualiza lista de usuários e detalhes.  
+![US08](US08(GERENCIARUSUARIOS).png)
+
+### US09 – Excluir pedido
+Gerente exclui pedidos incorretos ou inválidos verificando se tem erros.  
+![US09](US09(EXCLUIRPEDIDO).png)
+
+### US10 – Logs de alteração
+Gerente visualiza histórico de alterações e pode filtrar as informações presentes.  
+![US10](US10(LOGS).png)
+
+
 **Windows**  
 ```bash
 🚧 Em construção: a guia completa de instalação será disponibilizada em breve.  
