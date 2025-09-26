@@ -21,7 +21,7 @@ Antes de começar, certifique-se de ter instalado:
 
 ### Notion 
 
-(Captura de tela 2025-09-15 160825.png)
+!(Notion.png)
 
 ### 🔁 Diagrama de atividades
 
