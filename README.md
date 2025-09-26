@@ -19,6 +19,10 @@ Antes de começar, certifique-se de ter instalado:
 
 ### 1️⃣ ...
 
+### Notion 
+
+(Captura de tela 2025-09-15 160825.png)
+
 ### 🔁 Diagrama de atividades
 
 ### US01 – Cadastro de usuário
