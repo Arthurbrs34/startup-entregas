@@ -21,7 +21,7 @@ Antes de começar, certifique-se de ter instalado:
 
 ### Notion 
 
-!(Notion.png)
+![Notion](Notion.png)
 
 ### 🔁 Diagrama de atividades
 
